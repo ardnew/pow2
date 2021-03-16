@@ -22,14 +22,14 @@ goos: linux
 goarch: amd64
 pkg: github.com/ardnew/pow2
 cpu: AMD Ryzen Threadripper 1950X 16-Core Processor
-BenchmarkAndMinus1-32             457648              2204 ns/op
-BenchmarkOnesCount-32             561204              2122 ns/op
-BenchmarkForCountAll-32           201400              5287 ns/op
-BenchmarkForCountOnce-32          262369              4132 ns/op
-BenchmarkInSlice-32               115239              9740 ns/op
-BenchmarkInMap-32                 234642              4829 ns/op
+BenchmarkAndMinus1-32            2264751               515.9 ns/op
+BenchmarkOnesCount-32            1714140               694.0 ns/op
+BenchmarkForCountAll-32            39033             31690 ns/op
+BenchmarkForCountOnce-32          581548              2096 ns/op
+BenchmarkInSlice-32                25918             45959 ns/op
+BenchmarkInMap-32                 100513             11501 ns/op
 PASS
-ok      github.com/ardnew/pow2  7.934s
+ok      github.com/ardnew/pow2  10.231s
 ```
 
 ## Usage
